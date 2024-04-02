@@ -1,0 +1,32 @@
+@use '../abstract/variables';
+@use '../abstract/mixins';
+
+
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUs__title{
+    @include mixins.ff-fs-fw-fc(variables.$primary-font,16px,600,variables.$primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.aboutUs__different{
+    @include mixins.ff-fs-fw-fc(variables.$primary-font,48px,600,variables.$terciary-color);
+    line-height: 60px;
+    letter-spacing: -0,96px;
+    margin-bottom: 2.25rem;
+
+}
+
+.aboutUs__text{
+    @include mixins.ff-fs-fw-fc(variables.$primary-font,20px,400,variables.$secundary-color);
+    line-height: 30px;
+    text-align: center;
+    width: 791px;
+    margin-bottom: 7rem;
+    
+}

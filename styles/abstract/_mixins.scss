@@ -1,0 +1,23 @@
+@mixin ff-fs-fw-fc($f-family,$f-size,$f-weight,$f-color){
+    font-family: $f-family;
+    font-size: $f-size;
+    font-weight: $f-weight;
+    color: $f-color;
+}
+
+@mixin metricsStyle(){
+    h1{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,60px,600,variables.$primary-color);
+        margin-bottom: 0.75rem;
+    } 
+
+    h3{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,18px,500,variables.$terciary-color);
+        width: 280px;
+        margin-bottom: 0.5rem;
+    }
+
+    p{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,16px,400,variables.$secundary-color);
+    }
+}

@@ -1,0 +1,59 @@
+@use '../abstract/variables';
+@use '../abstract/mixins';
+
+.siteHeader{
+    background: variables.$background-color;
+    padding: 2rem;
+    margin-bottom: 3.5rem ;
+}
+
+.siteHeader__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+} 
+
+.siteHeader__container__logo{
+    display: flex;
+    align-items: center;
+    gap:8px
+}
+
+.siteHeader__container__logo__name{
+    @include mixins.ff-fs-fw-fc(variables.$primary-font,18px,500,variables.$logo-color)
+}
+
+.siteHeader__container__menu{
+    display: flex;
+    margin-right: 7.5rem;
+    align-items: center;
+    gap: 32px;
+}
+
+.siteHeader__container__menu{
+    @include mixins.ff-fs-fw-fc(variables.$primary-font,16px,500,variables.$secundary-color)
+}
+
+.siteHeader__container__enterOrRegister{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.siteHeader__container__enterOrRegister__enter{
+    @include mixins.ff-fs-fw-fc(variables.$primary-font,16px,500,variables.$secundary-color);
+}
+
+.siteHeader__container__enterOrRegister__register{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 1px solid variables.$primary-color;
+    background: variables.$primary-color;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    @include mixins.ff-fs-fw-fc(variables.$primary-font,16px,500,variables.$background-color);
+}
+

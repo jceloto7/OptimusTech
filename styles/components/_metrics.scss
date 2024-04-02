@@ -1,0 +1,93 @@
+@use '../abstract/variables';
+@use '../abstract/mixins';
+
+.metrics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.metrics__projects{
+    width: 280px;
+    
+    h1{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,60px,600,variables.$primary-color);
+        margin-bottom: 0.75rem;
+    } 
+
+    h3{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,18px,500,variables.$terciary-color);
+        width: 280px;
+        margin-bottom: 0.5rem;
+    }
+
+    p{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,16px,400,variables.$secundary-color);
+        line-height: 24px;
+    }
+
+}
+
+.metrics__collabers{
+    width: 280px;
+    
+    h1{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,60px,600,variables.$primary-color);
+        margin-bottom: 0.75rem;
+    } 
+
+    h3{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,18px,500,variables.$terciary-color);
+        width: 280px;
+        margin-bottom: 0.5rem;
+    }
+
+    p{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,16px,400,variables.$secundary-color);
+        line-height: 24px;
+    }
+}
+
+.metrics__downloads{
+    width: 280px;
+
+    h1{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,60px,600,variables.$primary-color);
+        margin-bottom: 0.75rem;
+    } 
+
+    h3{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,18px,500,variables.$terciary-color);
+        width: 280px;
+        margin-bottom: 0.5rem;
+    }
+
+    p{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,16px,400,variables.$secundary-color);
+        line-height: 24px;
+    }
+
+}
+
+.metrics__reviews{
+    width: 280px;
+    h1{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,60px,600,variables.$primary-color);
+        margin-bottom: 0.75rem;
+    } 
+
+    h3{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,18px,500,variables.$terciary-color);
+        width: 280px;
+        margin-bottom: 0.5rem;
+    }
+
+    p{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,16px,400,variables.$secundary-color);
+        line-height: 24px;
+    }
+
+}
+
+
