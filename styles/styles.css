@@ -158,17 +158,17 @@ table {
   gap: 32px;
 }
 
-.metrics__projects {
+.metrics__projects, .metrics__collabers, .metrics__downloads, .metrics__reviews {
   width: 280px;
 }
-.metrics__projects h1 {
+.metrics__projects h1, .metrics__collabers h1, .metrics__downloads h1, .metrics__reviews h1 {
   font-family: "Inter", sans-serif;
   font-size: 60px;
   font-weight: 600;
   color: #8E2424;
   margin-bottom: 0.75rem;
 }
-.metrics__projects h3 {
+.metrics__projects h3, .metrics__collabers h3, .metrics__downloads h3, .metrics__reviews h3 {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 500;
@@ -176,85 +176,7 @@ table {
   width: 280px;
   margin-bottom: 0.5rem;
 }
-.metrics__projects p {
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #667085;
-  line-height: 24px;
-}
-
-.metrics__collabers {
-  width: 280px;
-}
-.metrics__collabers h1 {
-  font-family: "Inter", sans-serif;
-  font-size: 60px;
-  font-weight: 600;
-  color: #8E2424;
-  margin-bottom: 0.75rem;
-}
-.metrics__collabers h3 {
-  font-family: "Inter", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  color: #101828;
-  width: 280px;
-  margin-bottom: 0.5rem;
-}
-.metrics__collabers p {
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #667085;
-  line-height: 24px;
-}
-
-.metrics__downloads {
-  width: 280px;
-}
-.metrics__downloads h1 {
-  font-family: "Inter", sans-serif;
-  font-size: 60px;
-  font-weight: 600;
-  color: #8E2424;
-  margin-bottom: 0.75rem;
-}
-.metrics__downloads h3 {
-  font-family: "Inter", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  color: #101828;
-  width: 280px;
-  margin-bottom: 0.5rem;
-}
-.metrics__downloads p {
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #667085;
-  line-height: 24px;
-}
-
-.metrics__reviews {
-  width: 280px;
-}
-.metrics__reviews h1 {
-  font-family: "Inter", sans-serif;
-  font-size: 60px;
-  font-weight: 600;
-  color: #8E2424;
-  margin-bottom: 0.75rem;
-}
-.metrics__reviews h3 {
-  font-family: "Inter", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  color: #101828;
-  width: 280px;
-  margin-bottom: 0.5rem;
-}
-.metrics__reviews p {
+.metrics__projects p, .metrics__collabers p, .metrics__downloads p, .metrics__reviews p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
