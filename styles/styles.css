@@ -156,6 +156,7 @@ table {
   align-items: center;
   justify-content: center;
   gap: 32px;
+  margin-bottom: 12.25rem;
 }
 
 .metrics__projects, .metrics__collabers, .metrics__downloads, .metrics__reviews {
@@ -182,4 +183,44 @@ table {
   font-weight: 400;
   color: #667085;
   line-height: 24px;
+}
+
+.vacancies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vacancies__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.vacancies__text p {
+  padding: 4px 12px;
+  width: 101px;
+  border-radius: 16px;
+  background: rgba(142, 36, 36, 0.05);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #8E2424;
+}
+.vacancies__text h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #101828;
+  text-align: center;
+  letter-spacing: -0.72px;
+}
+.vacancies__text h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #667085;
+  margin-bottom: 4rem;
 }

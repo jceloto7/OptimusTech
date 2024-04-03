@@ -1,0 +1,37 @@
+@use '../abstract/variables';
+@use '../abstract/mixins';
+
+.vacancies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vacancies__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    p{
+        padding: 4px 12px;
+        width: 101px;
+        border-radius: 16px;
+        background: rgba(142, 36, 36, 0.05);
+
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,14px,500,variables.$primary-color);    
+    }
+
+    h1{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,36px,600,variables.$terciary-color);
+        text-align: center;
+        letter-spacing: -0.72px;
+    }
+
+    h2{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,20px,400,variables.$secundary-color);
+        margin-bottom: 4rem;
+    }
+}
