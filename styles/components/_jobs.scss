@@ -1,0 +1,46 @@
+@use '../abstract/variables';
+@use '../abstract/mixins';
+
+.jobs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jobs__design,.jobs__dev{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+
+    h3{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,20px,500,variables.$terciary-color);
+    }
+
+}
+
+.jobs__design__product,.jobs__design__ux,.jobs__dev__ios,.jobs__dev__frontend{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    
+    border-radius: 16px;
+    border: 1px solid var(--Gray-200, #EAECF0);
+    padding: 24px 24px 28px 24px;
+    
+    width:768px;
+    gap:32px;
+
+    h4{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,18px,500,variables.$terciary-color);
+    }
+
+    p{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,16px,500,variables.$secundary-color);  
+    }
+}
+
+.jobs__design__product__info,.jobs__design__ux__info,.jobs__dev__ios__info,.jobs__dev__frontend__info{
+    display: flex;
+    gap:24px;
+}

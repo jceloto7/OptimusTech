@@ -224,3 +224,50 @@ table {
   color: #667085;
   margin-bottom: 4rem;
 }
+
+.jobs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobs__design, .jobs__dev {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+.jobs__design h3, .jobs__dev h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #101828;
+}
+
+.jobs__design__product, .jobs__design__ux, .jobs__dev__ios, .jobs__dev__frontend {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  border-radius: 16px;
+  border: 1px solid var(--Gray-200, #EAECF0);
+  padding: 24px 24px 28px 24px;
+  width: 768px;
+  gap: 32px;
+}
+.jobs__design__product h4, .jobs__design__ux h4, .jobs__dev__ios h4, .jobs__dev__frontend h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #101828;
+}
+.jobs__design__product p, .jobs__design__ux p, .jobs__dev__ios p, .jobs__dev__frontend p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #667085;
+}
+
+.jobs__design__product__info, .jobs__design__ux__info, .jobs__dev__ios__info, .jobs__dev__frontend__info {
+  display: flex;
+  gap: 24px;
+}
