@@ -1,0 +1,40 @@
+@use '../abstract/variables';
+@use '../abstract/mixins';
+
+.depositions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    
+    border-radius: 16px;
+    background: rgba(195, 25, 25, 0.03);
+    
+    padding: 64px;
+    width:1088px;
+    
+    h3{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,14px,600,variables.$primary-color);
+        margin-bottom: 1rem;
+    }
+
+    h1{
+        @include mixins.ff-fs-fw-fc(variables.$primary-font,36px,500,variables.$terciary-color);
+        text-align: center;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+        margin-bottom: 2rem;
+    }  
+  
+}
+
+.depositions__name{
+    @include mixins.ff-fs-fw-fc(variables.$primary-font,16px,500,variables.$terciary-color);
+    margin-top: 1rem;
+}
+
+.depositions__profession{
+    @include mixins.ff-fs-fw-fc(variables.$primary-font,14px,400,variables.$secundary-color);
+    margin-top: 0.25rem;
+
+}

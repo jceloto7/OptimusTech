@@ -230,6 +230,7 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 6rem;
 }
 
 .jobs__design, .jobs__dev {
@@ -270,4 +271,48 @@ table {
 .jobs__design__product__info, .jobs__design__ux__info, .jobs__dev__ios__info, .jobs__dev__frontend__info {
   display: flex;
   gap: 24px;
+}
+
+.depositions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: rgba(195, 25, 25, 0.03);
+  padding: 64px;
+  width: 1088px;
+}
+.depositions h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #8E2424;
+  margin-bottom: 1rem;
+}
+.depositions h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  color: #101828;
+  text-align: center;
+  line-height: 44px;
+  letter-spacing: -0.72px;
+  margin-bottom: 2rem;
+}
+
+.depositions__name {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #101828;
+  margin-top: 1rem;
+}
+
+.depositions__profession {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #667085;
+  margin-top: 0.25rem;
 }
