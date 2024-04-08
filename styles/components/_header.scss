@@ -46,14 +46,7 @@
 }
 
 .siteHeader__container__enterOrRegister__register{
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    padding: 10px 18px;
-    border-radius: 8px;
-    border: 1px solid variables.$primary-color;
-    background: variables.$primary-color;
-    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    @include mixins.registerStyle();
     @include mixins.ff-fs-fw-fc(variables.$primary-font,16px,500,variables.$background-color);
 }
 

@@ -1,6 +1,19 @@
+@use '../abstract/variables';
+
 @mixin ff-fs-fw-fc($f-family,$f-size,$f-weight,$f-color){
     font-family: $f-family;
     font-size: $f-size;
     font-weight: $f-weight;
     color: $f-color;
+}
+
+@mixin registerStyle(){
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 1px solid variables.$primary-color;
+    background: variables.$primary-color;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 }
