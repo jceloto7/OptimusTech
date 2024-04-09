@@ -41,6 +41,10 @@
     }
 }
 
+.jobs__design__product,.jobs__design__ux,.jobs__dev__ios,.jobs__dev__frontend:hover{
+    cursor:pointer;
+}
+
 .jobs__design__product__info,.jobs__design__ux__info,.jobs__dev__ios__info,.jobs__dev__frontend__info{
     display: flex;
     gap:24px;

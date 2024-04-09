@@ -20,6 +20,12 @@
     gap:8px
 }
 
+.siteHeader__container__logo:hover{
+    cursor:pointer;
+}
+
+
+
 .siteHeader__container__logo__name{
     @include mixins.ff-fs-fw-fc(variables.$primary-font,18px,500,variables.$logo-color)
 }
@@ -29,11 +35,13 @@
     margin-right: 7.5rem;
     align-items: center;
     gap: 32px;
-}
-
-.siteHeader__container__menu{
     @include mixins.ff-fs-fw-fc(variables.$primary-font,16px,500,variables.$secundary-color)
 }
+
+.siteHeader__container__menu:hover{
+    cursor:pointer;
+}
+
 
 .siteHeader__container__enterOrRegister{
     display: flex;
@@ -45,8 +53,16 @@
     @include mixins.ff-fs-fw-fc(variables.$primary-font,16px,500,variables.$secundary-color);
 }
 
+.siteHeader__container__enterOrRegister__enter:hover{
+    cursor:pointer;
+}
+
 .siteHeader__container__enterOrRegister__register{
     @include mixins.registerStyle();
     @include mixins.ff-fs-fw-fc(variables.$primary-font,16px,500,variables.$background-color);
 }
 
+
+.siteHeader__container__enterOrRegister__register:hover{
+    @include mixins.registerStyleHover(); 
+}

@@ -66,6 +66,10 @@ table {
   gap: 8px;
 }
 
+.siteHeader__container__logo:hover {
+  cursor: pointer;
+}
+
 .siteHeader__container__logo__name {
   font-family: "Inter", sans-serif;
   font-size: 18px;
@@ -78,13 +82,14 @@ table {
   margin-right: 7.5rem;
   align-items: center;
   gap: 32px;
-}
-
-.siteHeader__container__menu {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #667085;
+}
+
+.siteHeader__container__menu:hover {
+  cursor: pointer;
 }
 
 .siteHeader__container__enterOrRegister {
@@ -100,6 +105,10 @@ table {
   color: #667085;
 }
 
+.siteHeader__container__enterOrRegister__enter:hover {
+  cursor: pointer;
+}
+
 .siteHeader__container__enterOrRegister__register {
   display: flex;
   align-items: center;
@@ -113,6 +122,11 @@ table {
   font-size: 16px;
   font-weight: 500;
   color: #FFFFFF;
+}
+
+.siteHeader__container__enterOrRegister__register:hover {
+  cursor: pointer;
+  background: rgba(142, 36, 36, 0.8);
 }
 
 .aboutUs {
@@ -268,6 +282,10 @@ table {
   color: #667085;
 }
 
+.jobs__design__product, .jobs__design__ux, .jobs__dev__ios, .jobs__dev__frontend:hover {
+  cursor: pointer;
+}
+
 .jobs__design__product__info, .jobs__design__ux__info, .jobs__dev__ios__info, .jobs__dev__frontend__info {
   display: flex;
   gap: 24px;
@@ -397,4 +415,9 @@ table {
   font-size: 16px;
   font-weight: 500;
   color: #FFFFFF;
+}
+
+.siteFooter__container__forms__submit:hover {
+  cursor: pointer;
+  background: rgba(142, 36, 36, 0.8);
 }

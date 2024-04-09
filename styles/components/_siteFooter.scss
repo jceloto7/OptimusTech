@@ -67,3 +67,9 @@
     @include mixins.registerStyle();
     @include mixins.ff-fs-fw-fc(variables.$primary-font,16px,500,variables.$background-color);
 }
+
+.siteFooter__container__forms__submit:hover {
+    @include mixins.registerStyleHover(); 
+    
+}
+
