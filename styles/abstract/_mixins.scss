@@ -20,5 +20,10 @@
 
 @mixin registerStyleHover(){
     cursor:pointer;
-    background: rgba(142, 36, 36, 0.80);
+    background: rgba(142, 36, 36, 0.70);
+}
+
+@mixin registerStyleActive(){
+    cursor:pointer;
+    background: rgba(142, 36, 36, 0.85);
 }

@@ -66,3 +66,7 @@
 .siteHeader__container__enterOrRegister__register:hover{
     @include mixins.registerStyleHover(); 
 }
+
+.siteHeader__container__enterOrRegister__register:active{
+    @include mixins.registerStyleActive();
+}

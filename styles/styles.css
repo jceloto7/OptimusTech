@@ -126,7 +126,12 @@ table {
 
 .siteHeader__container__enterOrRegister__register:hover {
   cursor: pointer;
-  background: rgba(142, 36, 36, 0.8);
+  background: rgba(142, 36, 36, 0.7);
+}
+
+.siteHeader__container__enterOrRegister__register:active {
+  cursor: pointer;
+  background: rgba(142, 36, 36, 0.85);
 }
 
 .aboutUs {
@@ -419,5 +424,10 @@ table {
 
 .siteFooter__container__forms__submit:hover {
   cursor: pointer;
-  background: rgba(142, 36, 36, 0.8);
+  background: rgba(142, 36, 36, 0.7);
+}
+
+.siteFooter__container__forms__submit:active {
+  cursor: pointer;
+  background: rgba(142, 36, 36, 0.85);
 }
